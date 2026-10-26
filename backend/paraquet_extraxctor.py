@@ -6,9 +6,10 @@ import pandas as pd
 # Directories
 INPUT_DIR = Path("/home/vikas/Documents/Law-law-land/data/metadata")
 OUTPUT_DIR = Path("/home/vikas/Documents/Law-law-land/data/metadata_json")
-    
+  
 # Set to True if you want to retain the raw HTML in the JSON.
 INCLUDE_RAW_HTML = False
+
 
 # Columns useful for legal judgment search and filtering.
 METADATA_COLUMNS = [
@@ -42,7 +43,6 @@ def clean_value(value):
             return value.item()
         except (ValueError, AttributeError):
             pass
-
     return value
 
 
