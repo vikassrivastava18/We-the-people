@@ -1,12 +1,12 @@
 # Project Specification
-The project is meant to be a modern DMS startup, which allows saving and inquiring dcouments saved in primarily test format. Using modern Agentic RAG coupled with metadata extraction, it aims to provide a modern DMS solution. 
+The project is meant to be a DMS startup, which allows saving and inquiring dcouments saved in primarily test format. Using modern Agentic RAG coupled with metadata extraction, it aims to provide a modern DMS solution. 
 
 
 ## We-The-People (Working example)
 
  ## 1\. Prototype Summary
 
- Build a query-answering application that can efficiently ingest legal documents and provide accurate, source-backed answers to questions about them.
+ Build an application that can efficiently ingest legal documents and provide accurate, source-backed answers to questions about them.
 
  The system will be a web application called **We-The-People**, focused on the **Constitution of India** and **Supreme Court of India judgments**.
 
@@ -59,9 +59,7 @@ The project is meant to be a modern DMS startup, which allows saving and inquiri
 
  ### 3.2 Question-Answering Agent
 
- Build an agent that can answer user queries using the stored data.
-
- The agent should be capable of selecting the appropriate retrieval mechanism, such as:
+ Build an agent that can answer user queries using the stored data. The agent should be capable of selecting the appropriate retrieval mechanism, such as:
 
 - **Vector search / RAG** for unstructured questions.
 - **SQL** for structured queries and filtering.
