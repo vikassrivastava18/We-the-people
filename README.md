@@ -15,7 +15,8 @@ The project is meant to be a DMS startup, which allows saving and inquiring dcou
 - Who were the key framers of the Constitution?
 - Explain Article 19 as if I were five years old.
 - Show me all judgments from 2022 by Justice Chandrachud.
-- Summarize the latest judgment on the appointment of the Chief Election Commissioner (CEC).
+- What are similarities and differences between Indian and American constitution?
+- Is there any appeal in SC regarding the appointment of the Chief Election Commissioner (CEC).
 
  These queries can be answered using **RAG, SQL queries, or other suitable retrieval mechanisms**, depending on the nature of the question.
 
