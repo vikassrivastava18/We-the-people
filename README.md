@@ -1,5 +1,5 @@
 # Project Specification
-The project is meant to be a DMS startup, which allows saving and inquiring dcouments saved in primarily test format. Using modern Agentic RAG coupled with metadata extraction, it aims to provide a modern DMS solution. 
+The project is meant to be a DMS startup, which allows saving and inquiring dcouments. Using modern Agentic RAG coupled with metadata extraction, it aims to provide a modern DMS solution. 
 
 
 ## We-The-People (Working example)
